@@ -8,17 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		A081B7A62BD7A26800A11C9F /* MicroProjectAppleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A081B7A52BD7A26800A11C9F /* MicroProjectAppleApp.swift */; };
-		A081B7A82BD7A26800A11C9F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A081B7A72BD7A26800A11C9F /* ContentView.swift */; };
 		A081B7AA2BD7A26800A11C9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A081B7A92BD7A26800A11C9F /* Assets.xcassets */; };
 		A081B7AD2BD7A26800A11C9F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A081B7AC2BD7A26800A11C9F /* Preview Assets.xcassets */; };
+		A081B7F82BD7B87200A11C9F /* SelectUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A081B7EC2BD7B87100A11C9F /* SelectUser.swift */; };
+		A081B7F92BD7B87200A11C9F /* Splash.swift in Sources */ = {isa = PBXBuildFile; fileRef = A081B7ED2BD7B87200A11C9F /* Splash.swift */; };
+		A081B7FA2BD7B87200A11C9F /* ReviwerInbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = A081B7EE2BD7B87200A11C9F /* ReviwerInbox.swift */; };
+		A081B7FB2BD7B87200A11C9F /* ReviwerSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A081B7EF2BD7B87200A11C9F /* ReviwerSettings.swift */; };
+		A081B7FC2BD7B87200A11C9F /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = A081B7F02BD7B87200A11C9F /* SignIn.swift */; };
+		A081B7FD2BD7B87200A11C9F /* OwnerProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A081B7F12BD7B87200A11C9F /* OwnerProfile.swift */; };
+		A081B7FE2BD7B87200A11C9F /* SignUpReviwer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A081B7F22BD7B87200A11C9F /* SignUpReviwer.swift */; };
+		A081B7FF2BD7B87200A11C9F /* ReviwerProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A081B7F32BD7B87200A11C9F /* ReviwerProfile.swift */; };
+		A081B8002BD7B87200A11C9F /* SignUpOwner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A081B7F42BD7B87200A11C9F /* SignUpOwner.swift */; };
+		A081B8012BD7B87200A11C9F /* OwnerInbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = A081B7F52BD7B87200A11C9F /* OwnerInbox.swift */; };
+		A081B8022BD7B87200A11C9F /* OwnerAnnouncement.swift in Sources */ = {isa = PBXBuildFile; fileRef = A081B7F62BD7B87200A11C9F /* OwnerAnnouncement.swift */; };
+		A081B8032BD7B87200A11C9F /* ReviwerAnnouncement.swift in Sources */ = {isa = PBXBuildFile; fileRef = A081B7F72BD7B87200A11C9F /* ReviwerAnnouncement.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A081B7A22BD7A26800A11C9F /* MicroProjectApple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MicroProjectApple.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A081B7A52BD7A26800A11C9F /* MicroProjectAppleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicroProjectAppleApp.swift; sourceTree = "<group>"; };
-		A081B7A72BD7A26800A11C9F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A081B7A92BD7A26800A11C9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A081B7AC2BD7A26800A11C9F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A081B7EC2BD7B87100A11C9F /* SelectUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SelectUser.swift; path = "../../../Downloads/MicroProjectApple-main/MicroProjectApple/SelectUser.swift"; sourceTree = "<group>"; };
+		A081B7ED2BD7B87200A11C9F /* Splash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Splash.swift; path = "../../../Downloads/MicroProjectApple-main/MicroProjectApple/Splash.swift"; sourceTree = "<group>"; };
+		A081B7EE2BD7B87200A11C9F /* ReviwerInbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReviwerInbox.swift; path = "../../../Downloads/MicroProjectApple-main/MicroProjectApple/ReviwerInbox.swift"; sourceTree = "<group>"; };
+		A081B7EF2BD7B87200A11C9F /* ReviwerSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReviwerSettings.swift; path = "../../../Downloads/MicroProjectApple-main/MicroProjectApple/ReviwerSettings.swift"; sourceTree = "<group>"; };
+		A081B7F02BD7B87200A11C9F /* SignIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignIn.swift; path = "../../../Downloads/MicroProjectApple-main/MicroProjectApple/SignIn.swift"; sourceTree = "<group>"; };
+		A081B7F12BD7B87200A11C9F /* OwnerProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OwnerProfile.swift; path = "../../../Downloads/MicroProjectApple-main/MicroProjectApple/OwnerProfile.swift"; sourceTree = "<group>"; };
+		A081B7F22BD7B87200A11C9F /* SignUpReviwer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpReviwer.swift; path = "../../../Downloads/MicroProjectApple-main/MicroProjectApple/SignUpReviwer.swift"; sourceTree = "<group>"; };
+		A081B7F32BD7B87200A11C9F /* ReviwerProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReviwerProfile.swift; path = "../../../Downloads/MicroProjectApple-main/MicroProjectApple/ReviwerProfile.swift"; sourceTree = "<group>"; };
+		A081B7F42BD7B87200A11C9F /* SignUpOwner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpOwner.swift; path = "../../../Downloads/MicroProjectApple-main/MicroProjectApple/SignUpOwner.swift"; sourceTree = "<group>"; };
+		A081B7F52BD7B87200A11C9F /* OwnerInbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OwnerInbox.swift; path = "../../../Downloads/MicroProjectApple-main/MicroProjectApple/OwnerInbox.swift"; sourceTree = "<group>"; };
+		A081B7F62BD7B87200A11C9F /* OwnerAnnouncement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OwnerAnnouncement.swift; path = "../../../Downloads/MicroProjectApple-main/MicroProjectApple/OwnerAnnouncement.swift"; sourceTree = "<group>"; };
+		A081B7F72BD7B87200A11C9F /* ReviwerAnnouncement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReviwerAnnouncement.swift; path = "../../../Downloads/MicroProjectApple-main/MicroProjectApple/ReviwerAnnouncement.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +74,18 @@
 			isa = PBXGroup;
 			children = (
 				A081B7A52BD7A26800A11C9F /* MicroProjectAppleApp.swift */,
-				A081B7A72BD7A26800A11C9F /* ContentView.swift */,
+				A081B7F62BD7B87200A11C9F /* OwnerAnnouncement.swift */,
+				A081B7F52BD7B87200A11C9F /* OwnerInbox.swift */,
+				A081B7F12BD7B87200A11C9F /* OwnerProfile.swift */,
+				A081B7F72BD7B87200A11C9F /* ReviwerAnnouncement.swift */,
+				A081B7EE2BD7B87200A11C9F /* ReviwerInbox.swift */,
+				A081B7F32BD7B87200A11C9F /* ReviwerProfile.swift */,
+				A081B7EF2BD7B87200A11C9F /* ReviwerSettings.swift */,
+				A081B7EC2BD7B87100A11C9F /* SelectUser.swift */,
+				A081B7F02BD7B87200A11C9F /* SignIn.swift */,
+				A081B7F42BD7B87200A11C9F /* SignUpOwner.swift */,
+				A081B7F22BD7B87200A11C9F /* SignUpReviwer.swift */,
+				A081B7ED2BD7B87200A11C9F /* Splash.swift */,
 				A081B7A92BD7A26800A11C9F /* Assets.xcassets */,
 				A081B7AB2BD7A26800A11C9F /* Preview Content */,
 			);
@@ -137,8 +170,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A081B7A82BD7A26800A11C9F /* ContentView.swift in Sources */,
+				A081B7FD2BD7B87200A11C9F /* OwnerProfile.swift in Sources */,
+				A081B7FE2BD7B87200A11C9F /* SignUpReviwer.swift in Sources */,
+				A081B8022BD7B87200A11C9F /* OwnerAnnouncement.swift in Sources */,
 				A081B7A62BD7A26800A11C9F /* MicroProjectAppleApp.swift in Sources */,
+				A081B7FF2BD7B87200A11C9F /* ReviwerProfile.swift in Sources */,
+				A081B7FA2BD7B87200A11C9F /* ReviwerInbox.swift in Sources */,
+				A081B8012BD7B87200A11C9F /* OwnerInbox.swift in Sources */,
+				A081B7F92BD7B87200A11C9F /* Splash.swift in Sources */,
+				A081B8032BD7B87200A11C9F /* ReviwerAnnouncement.swift in Sources */,
+				A081B7FC2BD7B87200A11C9F /* SignIn.swift in Sources */,
+				A081B8002BD7B87200A11C9F /* SignUpOwner.swift in Sources */,
+				A081B7F82BD7B87200A11C9F /* SelectUser.swift in Sources */,
+				A081B7FB2BD7B87200A11C9F /* ReviwerSettings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
