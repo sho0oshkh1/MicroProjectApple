@@ -22,6 +22,7 @@
 		A081B8012BD7B87200A11C9F /* OwnerInbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = A081B7F52BD7B87200A11C9F /* OwnerInbox.swift */; };
 		A081B8022BD7B87200A11C9F /* OwnerAnnouncement.swift in Sources */ = {isa = PBXBuildFile; fileRef = A081B7F62BD7B87200A11C9F /* OwnerAnnouncement.swift */; };
 		A081B8032BD7B87200A11C9F /* ReviwerAnnouncement.swift in Sources */ = {isa = PBXBuildFile; fileRef = A081B7F72BD7B87200A11C9F /* ReviwerAnnouncement.swift */; };
+		A081B80D2BDA37BF00A11C9F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A081B80C2BDA37BF00A11C9F /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,8 @@
 		A081B7F52BD7B87200A11C9F /* OwnerInbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OwnerInbox.swift; path = "../../../Downloads/MicroProjectApple-main/MicroProjectApple/OwnerInbox.swift"; sourceTree = "<group>"; };
 		A081B7F62BD7B87200A11C9F /* OwnerAnnouncement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OwnerAnnouncement.swift; path = "../../../Downloads/MicroProjectApple-main/MicroProjectApple/OwnerAnnouncement.swift"; sourceTree = "<group>"; };
 		A081B7F72BD7B87200A11C9F /* ReviwerAnnouncement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReviwerAnnouncement.swift; path = "../../../Downloads/MicroProjectApple-main/MicroProjectApple/ReviwerAnnouncement.swift"; sourceTree = "<group>"; };
+		A081B8042BD8E3E200A11C9F /* MicroProjectApple.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MicroProjectApple.entitlements; sourceTree = "<group>"; };
+		A081B80C2BDA37BF00A11C9F /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,8 @@
 		A081B7A42BD7A26800A11C9F /* MicroProjectApple */ = {
 			isa = PBXGroup;
 			children = (
+				A081B8052BD8E42800A11C9F /* Models */,
+				A081B8042BD8E3E200A11C9F /* MicroProjectApple.entitlements */,
 				A081B7A52BD7A26800A11C9F /* MicroProjectAppleApp.swift */,
 				A081B7F62BD7B87200A11C9F /* OwnerAnnouncement.swift */,
 				A081B7F52BD7B87200A11C9F /* OwnerInbox.swift */,
@@ -98,6 +103,14 @@
 				A081B7AC2BD7A26800A11C9F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A081B8052BD8E42800A11C9F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A081B80C2BDA37BF00A11C9F /* Model.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +190,7 @@
 				A081B7FF2BD7B87200A11C9F /* ReviwerProfile.swift in Sources */,
 				A081B7FA2BD7B87200A11C9F /* ReviwerInbox.swift in Sources */,
 				A081B8012BD7B87200A11C9F /* OwnerInbox.swift in Sources */,
+				A081B80D2BDA37BF00A11C9F /* Model.swift in Sources */,
 				A081B7F92BD7B87200A11C9F /* Splash.swift in Sources */,
 				A081B8032BD7B87200A11C9F /* ReviwerAnnouncement.swift in Sources */,
 				A081B7FC2BD7B87200A11C9F /* SignIn.swift in Sources */,
@@ -313,9 +327,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MicroProjectApple/MicroProjectApple.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MicroProjectApple/Preview Content\"";
+				DEVELOPMENT_TEAM = ZT62K5W2B9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -341,9 +357,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MicroProjectApple/MicroProjectApple.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MicroProjectApple/Preview Content\"";
+				DEVELOPMENT_TEAM = ZT62K5W2B9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
